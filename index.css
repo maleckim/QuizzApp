@@ -1,0 +1,181 @@
+* {
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-image: linear-gradient(to bottom right, green, brown);
+    height:300%
+}
+.scoreHolder {
+    padding-top:45px;
+    font-size:25px;
+    font-size:2.9vw;
+    font-size:2.9vh;
+    display:flex;
+    justify-content: space-evenly;
+    margin:auto;
+    color:peachpuff;
+    font-weight:bolder;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+       
+}
+
+.scoreHolder  li{
+    display:inline-flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    padding-right:2.3vw;
+    padding-left:2.3vw;
+  
+}
+
+.scoreHolder span{
+    padding-left:7px;
+}
+
+.mainContainer {
+    display:flex;
+    justify-content: center;
+    height:500px;
+    height:50vw;
+   
+    
+
+}
+
+.buttonContainer {
+    padding-top: 200px;
+    padding-top: 21vw;
+    flex-shrink:15;
+    display: flex;
+    justify-content: center;
+    border-radius:12px;
+    
+    
+}
+
+
+
+button {
+    
+    font-size:40px;
+    font-size:3vw;
+    font-size:3vh;
+    border-radius:12px;
+    padding:10px;
+    color:black;
+    background:peachpuff;
+    border-color:black;
+    
+}
+
+
+ label, input {
+    
+    font-size:12px;
+    font-size:1.3vw;
+    font-size:3.1vh;
+    padding-right:10px;
+    padding-left:3px;
+    vertical-align: .16em;
+    color:peachpuff;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+
+.questionPage form{
+    justify-self:center;
+    justify-items: center;
+    margin:auto;
+}
+
+
+
+.choiceForm {
+    padding-top:4.5vw;
+    justify-content:center;
+    text-align:center;
+    margin:auto;
+   
+    
+}
+
+h3 {
+    text-align:center;
+    font-size:30px;
+    font-size:5vh; 
+    color:peachpuff; 
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.feedbackPage > .feedbackCorrect, .feedbackEnd{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:45px;
+    padding-right:45px;
+    text-align:center;
+}
+
+.contbutton{
+    margin-top:5px;
+    margin:auto;
+}
+
+p {
+    font-size:18px;
+    font-size:3.4vw;
+    font-size:3.4vh;
+    text-align: center;
+    color:peachpuff;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    
+    font-weight:bolder;
+}
+
+.retryButton{
+    
+    margin-top: 3.4vh;
+    margin-top:3.4vw;
+    margin:auto;
+}
+
+img{
+    text-align: center;
+    margin:auto;
+    width:200px;
+    height:200px;
+    margin-bottom:20px;
+    margin-bottom:4vh;
+    border:solid 3px peachpuff
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
